@@ -1,0 +1,121 @@
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(221, 220, 220);
+    font-family: 'Montserrat', sans-serif;
+}
+
+#main {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;  
+}
+
+#title h1 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+#title p {
+    font-size: .85rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+#img-div {
+    background-color: #fff;
+    min-width: 100vw;
+    padding: 20px;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+#img-caption {
+    font-size: .85rem;
+    font-weight: 300;
+    line-height: 1.4;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#tribute-info h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: .85rem;
+    font-weight: 600;
+    margin: 2em;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+li {
+    font-size: .85rem;
+    font-weight: 300;
+    line-height: 1.4;
+    padding: .75em 0;
+}
+
+
+#tribute--info-text-italic {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#tribute--info-text-italic p {
+    font-size: .85rem;
+    font-weight: 300;
+    line-height: 1.4;
+    /* display: flex;
+    text-align: center;
+    justify-content: center; */
+    
+
+}
+
+
+.link-wiki h3 {
+    font-size: .85rem;
+    line-height: 1.4;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+
+    ul {
+        justify-content: center;
+    }
+    li {
+        width: 80%;
+    }
+
+    #tribute--info-text-italic {
+        width: 80%;
+        margin-left: 3em;
+       
+    }
+}
